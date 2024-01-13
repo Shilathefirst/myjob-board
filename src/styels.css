@@ -1,0 +1,17 @@
+.heading{
+    text-align: center;
+    color: blue;
+    padding: 10px 5px;
+
+}
+
+.subheading{
+    text-align: center;
+    padding: 10px 5px;
+
+}
+
+.typeheading{
+    font-size: 250%;
+    color: blue;
+}
