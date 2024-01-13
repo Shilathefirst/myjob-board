@@ -1,6 +1,12 @@
+:root{
+    --primary-color: rgb(20, 125, 245);
+    --secondary-color: lightgreen;
+
+}
+
 .heading{
     text-align: center;
-    color: blue;
+    color: var(--primary-color);
     padding: 10px 5px;
 
 }
@@ -13,5 +19,23 @@
 
 .typeheading{
     font-size: 250%;
-    color: blue;
+    color: var(--primary-color);
+}
+
+button{
+    border: 1px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+    font-size: 14px;
+    height: 48px;
+    padding: 0px 18px;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+.body{
+    background-color: #F5F7FA;
+}
+.navbar{
+    background-color: var(--secondary-color);
 }
