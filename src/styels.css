@@ -35,7 +35,8 @@ button{
     
 }
 button:hover{
-    background-color: var(--primary-color);
+    background-color: lightgray;
+
     color: var(--secondary-color);
     
 
@@ -45,6 +46,7 @@ button a{
     text-decoration: none;
 }
 button a:hover{
+    
     color: var(--secondary-color);
 }
 .nav-link:hover{
@@ -53,11 +55,10 @@ button a:hover{
 .body{
     background-color: #F5F7FA;
 }
-.navbar{
-    background-color: var(--secondary-color);
-}
+
 .topbar{
     border-color: var(--secondary-color);
+    
 }
 @media (max-width: 900px){
     .topbar{
