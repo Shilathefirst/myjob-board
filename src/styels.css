@@ -1,6 +1,6 @@
 :root{
-    --primary-color: rgb(20, 125, 245);
-    --secondary-color: lightgreen;
+    --primary-color: #03233C;
+    --secondary-color:#3CD1BE;
 
 }
 
@@ -32,10 +32,35 @@ button{
     padding: 0px 18px;
     text-align: center;
     background-color: var(--secondary-color);
+    
+}
+button:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    
+
+}
+button a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+button a:hover{
+    color: var(--secondary-color);
+}
+.nav-link:hover{
+  color:var(--secondary-color);
 }
 .body{
     background-color: #F5F7FA;
 }
 .navbar{
     background-color: var(--secondary-color);
+}
+.topbar{
+    border-color: var(--secondary-color);
+}
+@media (max-width: 900px){
+    .topbar{
+        padding: 80px 20px;
+    }
 }
