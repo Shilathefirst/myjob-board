@@ -65,3 +65,12 @@ button a:hover{
         padding: 80px 20px;
     }
 }
+
+footer{
+    background-color: var(--primary-color);
+    color:white;
+    text-decoration: none;
+}
+ul li{ 
+    text-decoration: none;
+}
